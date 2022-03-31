@@ -9,10 +9,6 @@
         <property name="phone" ref="phone"/>
     </bean>
 
-    <bean id="phone" class="Phone.java">
-        <property name="mobile" value="8174557791"/>
-    </bean>
-
     <bean id="address" class="Address.java">
         <property name="city" value="Portland"/>
         <property name="state" value="OR"/>
